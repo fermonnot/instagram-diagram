@@ -39,7 +39,6 @@ class Post(Base):
     user_id = Column(Integer, ForeignKey('user.id'))
     user = relationship(User)
 
-
     def to_dict(self):
         return {}
 
