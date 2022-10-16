@@ -29,6 +29,7 @@ class Reel(Base):
     def to_dict(self):
         return {}
 
+
 class Post(Base):
     __tablename__ = 'post'
     # Here we define columns for the table address.
